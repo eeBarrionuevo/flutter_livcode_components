@@ -118,9 +118,9 @@ class CardPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             FadeInImage(
-              image: NetworkImage("https://lh3.googleusercontent.com/proxy/tFHl7SDAsXFj-btBtMn8hRCmemiRgHqPwsCEB0dEy52NzcRNVSrllAMmJTOmtDUaR5DPMVXB4LmAKX16JcjhKltwA-AHFFZ2-mIADYApXc-AwxK1wEp0vfCR"),
+              image: NetworkImage("https://images4.alphacoders.com/762/thumb-1920-762401.jpg"),
               placeholder: AssetImage("assets/images/jar-loading.gif"),
-              height: 150,
+              height: 220,
               fit: BoxFit.cover,
             ),
             Container(
@@ -132,5 +132,7 @@ class CardPage extends StatelessWidget {
       );
     }
   }
+
+
 
 }
